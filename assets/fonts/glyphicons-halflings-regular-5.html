@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>undefined</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="icon" href="favicon.ico?v=2" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favicon.png?v=1">
+    
+    <!--STYLES-->
+    <link rel="stylesheet" href="/styles/animate.css">
+    <link rel="stylesheet" href="/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <!--STYLES END-->   
+    
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!--- TODO !!!! -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+      
+    <!-- Navigation -->
+<header id="double-nav" class="desktop">
+  <nav class="navbar-black">
+    <div class="navbar-menu menu-container">
+      <a class="basket" href="http://shop.mojudrinks.com/cart">BASKET</a>
+      <a target="_blank" href="https://instagram.com/mojudrinks">
+        <!--<img src="/images/instagram_white.png" alt="MOJU on Instagram"> -->
+        <div class="instagram"></div>
+      </a>
+      <a target="_blank" href="https://twitter.com/mojudrinks">
+        <!-- <img style="padding-left: 0.7vw;" src="/images/twitter_white.png" alt="MOJU on Twitter"> --> 
+        <div class="twitter"></div>
+      </a>
+      <a target="_blank" href="https://www.facebook.com/pages/MOJU-Drinks/500816396723453">
+        <!-- <img  style="padding-left: 0.7vw;" src="/images/facebook_white.png" alt="MOJU on Facebook"> -->
+        <div class="facebook"></div>
+      </a>
+    </div>
+  </nav>
+
+  <nav class="navbar-white">
+    <div class="white-menu-container">
+      <a href="/" class="logo"></a>
+      <a class="menu-item" href="/MOJU-cold-pressed-juices">the juice</a>
+      <a class="menu-item page-scroll" href="/#about-us">our story</a>
+      <a class="menu-item" href="http://shop.mojudrinks.com">buy now</a>
+      <a class="menu-item" href="http://shop.mojudrinks.com/blogs/news">moju paper</a>
+      <!-- <div class="clear"></div> -->
+    </div>
+  </nav>
+</header>
+
+<!-- Mobile navigation -->
+<nav class="mobile">
+  <a href="#!" class="menu-switch"></a>
+  <a href="/" class="logo"></a>
+</nav>
+
+<nav class="drop-menu">
+  <a href="#!" class="menu-close"></a>
+  <div class="items">
+    <a class="item" href="/">start</a>
+    <a class="item" href="/MOJU-cold-pressed-juices">the juice</a>
+    <a class="item" href="/#about-us">our story</a>
+    <a class="item" href="http://shop.mojudrinks.com">buy now</a>
+    <a class="item" href="http://shop.mojudrinks.com/blogs/news">moju paper</a>
+  </div>
+  <div class="logo"></div>
+</nav>
+
+<div style="text-align:center;height: 20vh; margin-top: 20vh;">
+  <h1 style="font-size:2em;">It's boiled, James :(</h1>
+  <p>we couldn't find the page</p>
+</div>
+
+<script>
+  
+  (function() {
+    
+    var h = document.getElementById("double-nav");
+    h.style.display = 'block';
+
+})();
+</script>
+
+    <div class="scroll-top page-scroll hide">
+  <a class="btn btn-scroll" href="#page-top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <a href="/" class="logo"></a>
+
+    <div class="kale"></div>
+    <div class="boil"></div>
+    <div class="phone"></div>
+
+    <div class="right-box">
+      <div class="socials">
+        <div class="links">
+          <a target="_blank" href="https://plus.google.com/108053973599736044060/posts">
+            <img src="/images/g_black.png" alt="MOJU on Google+">
+          </a>
+          <a target="_blank" href="https://twitter.com/mojudrinks">
+            <img src="/images/twitter_black.png" alt="MOJU on Twitter">
+          </a>
+          <a target="_blank" href="https://www.facebook.com/pages/MOJU-Drinks/500816396723453">
+            <img src="/images/facebook_black.png" alt="MOJU on Facebook">
+          </a>
+          <a target="_blank" style="margin-left: 0;" href="https://instagram.com/mojudrinks">
+            <img src="/images/instagram_black.png" alt="MOJU on Instagram">
+          </a>
+        </div>
+
+        <div id="newsletter-container" class="form">
+          <input id="newsletter-email" placeholder="Email address" value="" autocomplete="off">
+          <button id="newsletter-button">SUBMIT</button>
+        </div>
+        <p class="mail-info">Sign up for breaking juice news, celebrity juice and juice forecasts.</p>
+        <p class="mail-error"></p>
+      </div>
+
+      <div class="menu">
+        <div class="item right">contact us</div>
+
+        <div class="stuff">
+
+          <div class="block first">
+            <p class="title">address</p>
+            <p>7 Tanners Yard</p>
+            <p>London, E2 6QB</p>
+          </div>  
+
+          <div class="block">
+            <p class="title">phone</p>
+            <p>020 <span id="phone"></span> 8049</p>
+          </div> 
+
+          <div class="block last">
+            <p class="title">email</p>
+            <b>General Enquiries:</b>
+            <p><a href="#"><span id="email"></span>@mojudrinks.com</a></p>
+            <b>Press Enquiries:</b>
+            <p><a href="#"><span id="emailPressed"></span>@mojudrinks.com</a></p>
+          </div> 
+        </div>
+
+      </div>
+
+    </div>
+
+    <p class="copy">&copy; Moju <span id="page-year"></span></p>
+  </div>
+
+
+</footer>
+
+    
+    <!--SCRIPTS-->
+    <script src="/js/dependencies/jquery.min.js"></script>
+    <script src="/js/dependencies/jquery-ui.min.js"></script>
+    <script src="/js/dependencies/bootstrap.min.js"></script>
+    <script src="/js/dependencies/classie.js"></script>
+    <script src="/js/dependencies/jquery.waypoints.min.js"></script>
+    <script src="/js/parallax.js"></script>
+    <script src="/js/instafeed.min.js"></script>
+    <script src="/js/interactions.js"></script>
+    <!--SCRIPTS END-->
+    
+    
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-18434824-6', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
